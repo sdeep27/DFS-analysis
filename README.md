@@ -11,6 +11,6 @@ createmaster() will combine all weekly stats files in folder into "Master Stats.
 team_opp_analysis("Master Stats.csv") outputs 64 individual team CSVs that break down opponent output and team output. Useful for finding teams to avoid playing against and running analysis on team weaknesses and strengths. There is example output for the New Orleans Saints <br />
 <br />
 matchup_holder("2016week8.csv") outputs "matchup 2016week8.csv" useful for game by game analysis. <br />
-pos_examine("2016week8.csv", "QB") outputs "QB Points 2016week8.csv". Can run on any position. Useful for comparing a positions points compared to total game points, team points, etc.  
+pos_examine("matchup 2016week8.csv", "QB") outputs "QB Points 2016week8.csv". Can run on any position. Game by Game analysis. Useful for comparing a positions points compared to total game points, team points, etc.  
 
  
